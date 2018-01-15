@@ -1,0 +1,30 @@
+body {
+  background-image: url(../../public/assets/images/sovietflag.jpg);
+  }
+
+  .navbar {
+ /* border-bottom: 2px solid #cccccc;
+  border-radius: 0;*/
+  background-color: black;
+  width: 100%;
+  /*opacity: .7; */
+}
+
+  .navbar-header {
+  height: 100px;
+ /* opacity: .8; */
+}
+
+.footer{ 
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	opacity: .9;
+}
+
+.footerText{
+	color: #748CAB;
+	text-align: center;
+	margin-top: 20px;
+	font-size: .7em;
+}
