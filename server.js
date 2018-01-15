@@ -1,7 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-var methodOverride = require("method-override");
 
 var app = express(); 
 
@@ -16,9 +15,6 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 app.use("/public", express.static(__dirname + '/public'));
 app.use("/scripts", express.static(__dirname + '/scripts'));
 
-
-// Override with POST having ?_method=DELETE
-app.use(methodOverride('_method'));
 
 // require('./App/routing/apiRoutes.js')(app); 
 require('./routes/htmlRoutes.js')(app);

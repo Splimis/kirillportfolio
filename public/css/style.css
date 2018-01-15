@@ -15,12 +15,53 @@ body {
  /* opacity: .8; */
 }
 
+.photo {
+  height: 35%;
+  width: 35%;
+  float: left;
+  padding: 0 3% 1% 0; }
+
+.about {
+  border: 2px solid #cccccc;
+  background: black;
+  margin-top: 2%;
+  margin-bottom: 50px;
+  box-shadow: 35px 35px 25px black; 
+}
+
+.aboutme {
+  color: white;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 2.1em;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.upper, .lower {
+  background-color: black;
+  border: 2px solid #cccccc;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  box-shadow: 35px 35px 25px black;
+   }
+
+.connect {
+  color: white;
+  text-align: center;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  opacity: .7; }
+
+
+
 .footer{ 
 	background-color: black;
 	height: 70px;
 	width: 100%;
 	opacity: .9;
 }
+
 
 .footerText{
 	color: #748CAB;
